@@ -45,7 +45,7 @@ If this repo is useful to you, please cite using this BibTeX.
 ```bibtex
 @article{peng2024integration,
   title={Integration of Multi-Source Medical Data for Medical Diagnosis Question Answering},
-  author={Peng, Qi and Liu, Jiankun and Zou, Quan and Chen, Xing and Zhong, Zheng and Wang, Zefeng and Xie, Jiayuan and Cai, Yi and Li, Qing},
+  author={Peng, Qi and Cai, Yi and Zou, Quan and Chen, Xing and Zhong, Zheng and Wang, Zefeng and Xie, Jiayuan and Liu, Jiankun and Li, Qing},
   journal={IEEE Transactions on Medical Imaging},
   year={2024},
   publisher={IEEE}
