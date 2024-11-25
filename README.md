@@ -9,16 +9,45 @@ The main contributions can be summarized as follows:
 ![](pics/workflow.png)
 
 
+## Requirements
+
+Install all required python dependencies:
+
+```
+pip install -r requirements.txt
+```
+
 ## Dataset
 
 Please check the Google Drive: https://drive.google.com/file/d/1zHmIb7Ej3lb3z6KO_pT9IfX0YBZJapFF/view?usp=sharing
 
 Note that Our dataset is currently undergoing ethical review by the hospital. It will be made the whole dataset publicly available once the review process is completed.
 
+
 ## Implementation
 
-Coming soon.
+### 1. Place the Dataset
+Place the downloaded dataset in the `./MMA_Dataset` directory, including the `json_file` folder and `image` folder.
 
-# Contribution
+### 2. Configure the API Key
+Add your API key to the `prompt_generator.py` file.
 
-Please raise an issue if you need help, any contributions are welcomed.
+### 3. Run the Python File
+Run the file using the following command:
+
+```
+python run.py
+```
+
+## Citation
+
+If this repo is useful to you, please cite using this BibTeX.
+```bibtex
+@article{peng2024integration,
+  title={Integration of Multi-Source Medical Data for Medical Diagnosis Question Answering},
+  author={Peng, Qi and Liu, Jiankun and Zou, Quan and Chen, Xing and Zhong, Zheng and Wang, Zefeng and Xie, Jiayuan and Cai, Yi and Li, Qing},
+  journal={IEEE Transactions on Medical Imaging},
+  year={2024},
+  publisher={IEEE}
+}
+```
